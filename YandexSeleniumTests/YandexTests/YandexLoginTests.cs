@@ -23,7 +23,7 @@ namespace YandexTests
 
             homeYandex.ClickLoginButton();
 
-            homeYandex.TakeScreenshot(driver, "../Screenshots/Test.png");
+            homeYandex.TakeScreenshot(driver, "../Test.png");
 
             LoginPageYandex loginPageYandex = homeYandex.GoToLoginPage();
 
